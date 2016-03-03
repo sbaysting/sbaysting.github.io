@@ -1,0 +1,438 @@
+{
+    "profile": {
+        "first_name": "Sakib",
+        "middle_names": "Farhan",
+        "last_name": "Jalal",
+        "date_of_birth": "1996-08-01",
+        "place_of_birth": "Dhaka, Bangladesh",
+        "biography": "Aspiring inventor, engineer, and technology virtuoso. Education aficionado and agile learner. Hackathon fanatic and disruptive ideas enthusiast. I seek to be an expanding nucleus of positive change.",
+        "current_location": {
+            "street": "Pace Drive",
+            "housenumber": 3,
+            "zipcode": "08820",
+            "city": "Edison",
+            "country": "USA",
+            "planet": "Earth"
+        }
+    },
+    "contact_details": {
+        "email": "sakib.jalal@gmail.com",
+        "phone": "732-895-0891",
+        "skype": "koolaidrain",
+        "website": "http://sakib.github.io/",
+        "twitter": "https://twitter.com/sakib_jalal",
+        "linkedin": "https://www.linkedin.com/in/sakibj/"
+    },
+    "education": [
+        {
+            "title": "Rutgers University-New Brunswick",
+            "specification": "Computer Science",
+            "location": "New Brunswick",
+            "level": "Bachelor",
+            "description": "Going toward minors in math and astrophysics, as well as a Master's in CS with a 5 year program.",
+            "start_date": "2014-09-01",
+            "end_date": "2018-05-01",
+            "completed": false
+        },
+        {
+            "title": "JP Stevens HS",
+            "specification": "",
+            "location": "Edison",
+            "level": "High school",
+            "description": "",
+            "start_date": "2010-09-01",
+            "end_date": "2014-06-01",
+            "completed": true
+        }
+    ],
+    "careers": [
+        {
+            "title": "Full-Stack Developer at Icepiration",
+            "specification": "",
+            "location": "",
+            "level": "",
+            "description": "Leading a team of computer scientists at a Rutgers-based tech startup led by a business professor and entrepreneur. Teaching my team about full-stack web dev, database design and internet technologies in order to build our media platform. Learning various aspects of building and marketing a business.",
+            "start_date": "",
+            "end_date":"2018-05-01",
+			"link": ""
+        },
+        {
+            "title": "Rising Treasurer for Rutgers Undergraduate Student Alliance for Computer Science (USACS)",
+            "specification": "",
+            "location": "'New Brunswick",
+            "level": "",
+            "description":"Elected to be the treasurer of the Rutgers Computer Science organization for the 2015-2016 school year. Shadowing the current treasurer to learn to manage funds and allocate accordingly to our many events.",
+            "start_date": "",
+            "end_date": ""
+        },
+        {
+            "title": "Student Systems Programmer",
+            "specification": "",
+            "location": "New Brunswick",
+            "level": "",
+            "description": "I work as a system admin for Rutgers machines and a web developer for various platforms we wish to create for the students of Rutgers. I work with Linux gurus to also build packages for widespread use on Linux distros such as CentOS, Solaris and Fedora.",
+            "start_date": "",
+            "end_date": "",
+			"link": ""
+        },
+        {
+
+        },
+        {
+
+        },
+        {
+
+        }
+    ],
+    "skills": [
+        {
+            "title": "Python",
+			"level": ,
+            "level_detailed": 9,
+            "endorsement": ""
+        },
+        {
+            "title": "Java",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        },
+        {
+            "title": "Node.js",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        },
+        {
+            "title": "Javascript",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        },
+        {
+            "title": "Ruby",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        },
+        {
+            "title": "C++",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        },
+        {
+            "title": "HTML/CSS",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        },
+		{
+            "title": "Git",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        },
+        {
+            "title": "Phabricator",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        },
+        {
+            "title": "Flask",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        },
+        {
+            "title": "Django",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        },
+        {
+            "title": "MySQL",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        },
+        {
+            "title": "PostgreSQL",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        },
+        {
+            "title": "MongoDB",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        },
+        {
+            "title": "Redhat/Debian Linux",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        },
+        {
+            "title": "Vim",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        },
+        {
+            "title": "Eclipse",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        },
+        {
+            "title": "Bootstrap",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        },
+        {
+            "title": "Foundation",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        },
+        {
+            "title": "DigitalOcean",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        },
+        {
+            "title": "Heroku",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        },
+        {
+            "title": "PuTTY",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        },
+        {
+            "title": "CentOS",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": ""
+        }
+    ],
+    "languages": [
+        {
+            "title": "Bengali",
+			"level": ,
+            "level_detailed": ,
+            "endorsement": "Limited working proficiency"
+        },
+        {
+            "title": "English",
+			"level": 5,
+            "level_detailed": 9,
+            "endorsement": "Native"
+        },
+        {
+            "title": "Spanish",
+			"level": 2,
+            "level_detailed": 3,
+            "endorsement": "Limited working proficiency"
+        },
+        {
+
+        }
+    ],
+    "tools": [
+        {
+            "title": "Notepad++",
+			"level": 5,
+            "level_detailed": 9,
+            "endorsement": "8 years"
+        },
+        {
+            "title": "Coda2",
+			"level": 4,
+            "level_detailed": 8,
+            "endorsement": "2 years"
+        },
+        {
+            "title": "Filezilla",
+			"level": 5,
+            "level_detailed": 9,
+            "endorsement": "8 years"
+        },
+        {
+            "title": "MS Office",
+			"level": 5,
+            "level_detailed": 9,
+            "endorsement": "10+ years"
+        },
+        {
+            "title": "Sublime Text",
+			"level": 4,
+            "level_detailed": 7,
+            "endorsement": "2 years"
+        },
+        {
+            "title": "Windows",
+			"level": 5,
+            "level_detailed": 9,
+            "endorsement": "10+ years"
+        },
+        {
+            "title": "Mac",
+			"level": 5,
+            "level_detailed": 8,
+            "endorsement": "3 years"
+        },
+        {
+            "title": "Firefox",
+			"level": 5,
+            "level_detailed": 9,
+            "endorsement": "8 years"
+        },
+        {
+            "title": "Webkit browsers",
+			"level": 5,
+            "level_detailed": 9,
+            "endorsement": "6 years"
+        },
+        {
+            "title": "Internet Explore 6+",
+			"level": 4,
+            "level_detailed": 8,
+            "endorsement": "8 years"
+        },
+        {
+            "title": "Adobe Fireworks",
+			"level": 4,
+            "level_detailed": 8,
+            "endorsement": "8 years"
+        },
+        {
+            "title": "Adobe Photoshop",
+			"level": 3,
+            "level_detailed": 6,
+            "endorsement": "6 years"
+        },
+        {
+            "title": "Subversion",
+			"level": 4,
+            "level_detailed": 7,
+            "endorsement": "5 years"
+        },
+        {
+            "title": "Git",
+			"level": 4,
+            "level_detailed": 6,
+            "endorsement": "2 year"
+        }
+    ],
+    "interests": [
+        {
+            "title": "Entrepreneurship",
+            "description": "",
+			"image": ""
+        },
+        {
+            "title": "Guitar",
+            "description": "",
+			"image": ""
+        },
+        {
+            "title": "Fitness",
+            "description": "",
+            "image": ""
+        },
+        {
+            "title": "Teaching",
+            "description": "",
+			"image": ""
+        },
+        {
+            "title": "Table Tennis",
+            "description": "",
+			"image": ""
+        },
+        {
+            "title": "Traveling",
+            "description": "",
+			"image": ""
+        },
+        {
+	    "title": "Breakdancing",
+            "description": "",
+			"image": ""
+        },
+        {
+	    "title": "Baking",
+            "description": "",
+			"image": ""
+        }
+    ],
+    "projects": [
+    	{
+	    	"title": "Asteroids",
+	    	"description": "Simple and fun Javascript game written entirely in Notepad++ from scratch. Written at Facebook NYC Fall Hackathon 2013.",
+	    	"tags": "Development, Wordpress, Bootstrap",
+	    	"image": "project_mals.jpg",
+	    	"link": "http://imgur.com/a/wABAL#0"
+    	},
+    	{
+	    	"title": "BeatHub",
+	    	"description": "An application that lets users upload songs, breaks them up into different channels (bass, center, left, right, etc), auto-synchronizes and plays them for 1.x surround sound without buying speakers. Built with Java and Python.",
+	    	"tags": "Development, Design, Bootstrap, Wordpress",
+	    	"image": "project_mbm.jpg",
+	    	"link": ""
+    	},
+    	{
+	    	"title": "USACS Secret Santa App 2014",
+	    	"description": "Python application written with Foundation CSS that compiles information for a Secret Santa. Deployed from github to heroku at http://koolaidsanta.herokuapp.com/",
+	    	"tags": "Design, Development, Bootstrap, Wordpress",
+	    	"image": "project_soap.jpg",
+	    	"link": "https://github.com/sakib/santa"
+    	},
+    	{
+	    	"title": "FBmail",
+	    	"description": "Chrome extension that integrates your Gmail inbox into your Facebook page. Can view your emails through your Facebook account. Written at PennApps Spring 2014.",
+	    	"tags": "Development, Bootstrap, Wordpress",
+	    	"image": "project_paf.jpg",
+	    	"link": "http://imgur.com/is2iEku,AN9dRor#1"
+    	},
+    	{
+	    	"title": "Leap Wheels",
+	    	"description": "Control a car wirelessly by making hand gestures in front of your computer. Uses Leap Motion API’s python wrapper to send commands through a websocket to an Intel Edison board atop an arduino controller for the car, which we made from scratch with parts provided by Drexel University. Written at Dragon Hacks Winter 2015.",
+	    	"tags": "Development, Design, Wordpress, Bootstrap",
+	    	"image": "project_veramulder.jpg",
+	    	"link": "https://github.com/sakib/leapwheels"
+    	},
+    	{
+	    	"title": "Iron Myo",
+	    	"description": "A 3D Myo armband controlled Iron Man Simulator in Oculus Rift using Unity Engine. Make gestures with your arms to shoot lasers at blocks in an artificial 3D rift environment! Written at PennApps Winter 2015.",
+	    	"tags": "Development, Concept, Founder",
+	    	"image": "project_oetelspel.jpg",
+	    	"link": "https://github.com/sakib/IronMyo"
+    	},
+    	{
+	    	"title": "TxtNote",
+	    	"description":"Text (732) 722-5557 with the name or part of the name of a movie or book and get ratings. Uses the Twilio, Google Books and IMDb APIs for database access. Written at HackRU Hackathon Fall 2013. Team members:Sakib Jalal, Belal Said",
+	    	"tags": "Development, Concept, Founder",
+	    	"image": "project_oetelspel.jpg",
+	    	"link": "https://www.hackerleague.org/hackathons/hackru-fall-2013/hacks/txtnote",
+
+	    	"title": "Nutrify",
+	    	"description":"Fitness calculator that outputs important diet data and guidelines for a weight loss goal. Written at HackPrinceton Fall 2013.",
+	    	"tags": "Development, Concept, Founder",
+	    	"image": "project_oetelspel.jpg",
+	    	"link": "http://sameenjalal.com/sakib/nutrify/"
+
+    	}
+
+    ]
+}

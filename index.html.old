@@ -16,6 +16,9 @@
 ░░░░░░█░░░░░░░░█
 ░░░░░▐▌░░░░░░░░░█
 ░░░░░█░░░░░░░░░░▐▌SEND THIS TO 7 PPL OR SKELINTONS WILL EAT YOU
+
+CREDIT TO SAKIB JALAL FOR THIS FANTASTIC TEMPLATE
+
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -25,16 +28,16 @@
     <meta content="text/css" http-equiv="content-style-type">
     <meta content="nl" http-equiv="content-language">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Sakib Jalal" name="author">
+    <meta content="Samuel Baysting" name="author">
     <meta content=
-    "I'm Sakib Jalal, a full stack developer / avid learner with good knowledge of back-end development."
+    "I'm Samuel Baysting, a computer engineer with a background is wireless communications, network programming and computer vision."
     name="description">
     <meta content=
-    "Sakib Jalal, Interactive Resume, Python programmer, Web developer, Full Stack Developer, Startup, Interactive CV, Resume, CV, Algorithms, Programming, Learning"
+    "Samuel Baysting, Sam Baysting, Interactive Resume, Wireless Communications, Programmer, Programming, Networks, Computer Vision, Point Clouds, Design, Hardware, Interactive CV, Resume, CV, Learning"
     name="keywords">
     <meta content="index, follow" name="robots">
     <meta content="14 days" name="revisit-after">
-    <title>Sakib J</title><!-- Bootstrap core CSS -->
+    <title>Samuel Baysting</title><!-- Bootstrap core CSS -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700"
     rel="stylesheet" type="text/css">
     <link href="view/css/bootstrap.min.css" rel="stylesheet">
@@ -59,7 +62,7 @@
 <body data-spy="scroll" data-target="#navbar-example">
     <div class="jumbotron" id="top" style="height: 1116px;">
         <div class="container">
-            <h1>Sakib Jalal</h1>
+            <h1>Samuel Baysting</h1>
             <p class="lead"><span class="element"></span></p>
         </div>
         <div class="overlay"></div><a class="scroll-down" href=
@@ -80,13 +83,16 @@
                     <a href="#profile">Profile</a>
                 </li>
                 <li>
-                    <a href="#experiences">Experiences</a>
+                    <a href="#education">Education</a>
+                </li>
+				<li>
+                    <a href="#employment">Employment</a>
                 </li>
                 <li>
-                    <a href="#abilities">Abilities</a>
+                    <a href="#skills">Skills</a>
                 </li>
                 <li>
-                    <a href="#projects">Projects</a>
+                    <a href="#research">R&D</a>
                 </li>
                 <li>
                     <a href="#contact">Contact</a>
@@ -97,44 +103,38 @@
     <div class="background-white">
         <div class="container" id="profile">
             <h2>Profile</h2>
-            <p class="lead">Student Developer</p>
+            <p class="lead">Computer Research Engineer</p>
             <hr>
             <div class="row">
                 <div class="col-md-4">
                     <h3>About Me</h3>
-                    <p>I'm a Computer Science student at Rutgers University.
-                    I really like going to hackathons and learning about more
-                    efficient ways to solve problems and store data. I work a
-                    lot with servers, databases, web applications and Linux
-                    system administration.
+					<p>I'm a Computer Engineering student at Rutgers University. 
+					I do a lot of research work in wireless communications and computer 
+					vision. I love to learn new ways to solve problems and have 
+					a strong thirst for knowledge. I will be going on to get my
+					masters degree in Computer Science.
                     </p>
                 </div>
-                <div class="col-md-4 text-center"><img alt="Sakib Jalal"
+                <div class="col-md-4 text-center"><img alt="Samuel Baysting"
                 height="246" src="view/images/twinkletoes.jpg" width=
                 "246"></div>
                 <div class="col-md-4">
                     <h3>Details</h3>
                     <p><strong>Name:</strong><br>
-                    Sakib Jalal<br>
+                    Samuel Baysting<br>
                     <strong>Age:</strong><br>
-                    19 years old<br>
+                    22 years old<br>
                     <strong>Location:</strong><br>
-                    Edison, NJ, USA</p><a class="btn btn-primary" href=
+                    Cherry Hill, NJ, USA</p><a class="btn btn-primary" href=
                     "https://www.dropbox.com/s/9z8cnqpdq0xet4z/Resume-10915.pdf?dl=0"
                     target="_blank">Official Resume</a>
                 </div>
-            </div><strong>Interests:</strong> road trips, rock
-            climbing, traveling, teaching, ping pong, guitar, online gaming
+            </div><strong>Interests:</strong> Music, Guitar, Skiing, Swimming, Travelling, Gym, Food, Trying new things
         </div>
     </div>
-    <div class="container" id="experiences">
-        <h2>Experiences</h2>
+    <div class="container" id="education">
+        <h2>Education</h2>
         <hr>
-        <div class="alert alert-info" style="background-color: #374140; border-color: #000; color: #bbb;">
-            <strong>Looking for awesome new challenges near NYC or San
-            Francisco as a systems/software engineer.</strong>
-        </div>
-        <h3>Education</h3>
         <div class="experiences">
             <div class="experience row">
                 <div class="col-md-4">
@@ -178,7 +178,7 @@
         </div>
         <hr>
         <h3>Careers & Leadership</h3>
-        <div class="experiences">
+        <div class="experiences" id="employment">
             <div class="experience row">
                 <div class="col-md-4">
                     <h4>Open System Solutions</h4>
@@ -316,8 +316,8 @@
         </div>
     </div>
     <div class="background-white">
-        <div class="container" id="abilities">
-            <h2>Abilities</h2>
+        <div class="container" id="skills">
+            <h2>Skills</h2>
             <hr>
             <h3></h3>
             <div class="row">
@@ -612,8 +612,8 @@
             </div>
         </div>
     </div>
-    <div class="container" id="projects">
-        <h2>Projects</h2>
+    <div class="container" id="research">
+        <h2>Research and Development</h2>
         <hr>
         <div class="row">
             <div class="col-md-6 col-sm-12 col-xs-12">

@@ -553,18 +553,18 @@ Wrote full reports for circuitry testing, repair and inspection results.</span> 
             <div class="experience row">
                 <div class="col-md-12">
                     <p><span class="hidden-phone">
-					The project is to design an OFDM-based waveform for use with a directional networking antenna system. My role in this project was to assist in developing the proposal and is currently to develop a test structure for the receivers. My test structure allows the user to easily program a stream of commands (one byte each, numbers 1 - 64) using an LCD shield with buttons and an arduino. The arduino then processes the user input and sends either a RAW or SLIP packet through RS485 serial outward towards the receiver. This requires C/C++, arduino, raspberry pi and a little bit of circuit knowledge to accomplish.</span></p>
+					The project is for a UAV known as the "Naviator" to achieve collision avoidance and 3D mapping. We started with a LiDAR and some cheap MEMS gyros to run some tests. Once we concluded those tests, we moved on to using a Stereolabs ZED 3D camera to generate point clouds for this purpose. With this camera, I have used the C++ Point Cloud Library to do point cloud stitching and use the point clouds to perform computations. Eventually, this will be moved on to an ARM system called the Jetson TX1 where it can be mounted on the Naviator and used in real-time. This requires Python, C++, Point Cloud Library, Boost C++ Library, MATLAB, arduino, low-level IO, computer vision and linear algebra knowledge to accomplish.</span></p>
                 </div>
             </div>
 		</div>
         <div class="row">
             <div class="col-md-6 col-sm-12 col-xs-12">
                 <figure class="effect">
-                    <img alt="RS485 Interface" src="view/images/interface.jpg"
+                    <img alt="13 Combined Point Clouds" src="view/images/stitch.png"
                     style="width: 107%;">
                     <figcaption>
-                        <h3>RS485 Interface</h3>
-                        <p>A sample of the physical interface that I developed</p>
+                        <h3>13 Combined Point Clouds</h3>
+                        <p>These point clouds were taken in 720p quality by the Stereolabs ZED 3D camera. Used an Iterative Closest Point (ICP) algorithm to stitch 13 individual point clouds together. Used an Hampel filter to exclude the outlier points. Better filtering is needed to clear up the quality, as the stitch is a little fuzzy. However, you can get the general shape of the kitchen from this cloud and it can be used for collision avoidance or route planning.</p>
                         <span class="icon"><span class=
                         "glyphicon glyphicon-new-window"></span></span>
                     </figcaption>
@@ -572,11 +572,11 @@ Wrote full reports for circuitry testing, repair and inspection results.</span> 
             </div>
             <div class="col-md-6 col-sm-12 col-xs-12">
                 <figure class="effect">
-                    <img alt="Serial Output" src=
-                    "view/images/serial.png" style="width: 103%;">
+                    <img alt="LiDAR Data with Computation" src=
+                    "view/images/pointmap.png" style="width: 103%;">
                     <figcaption>
-                        <h3>Serial Output</h3>
-                        <p>Some serial output information from the interface</p><span class="icon"><span class=
+                        <h3>LiDAR Data with Computation</h3>
+                        <p>This data was taken with a 360 degree LiDAR at around 5 Hz. The blue points is the first data set taken. The LiDAR was rotated and a MEMS gryo/accelerometer was used to compute approximate yaw from that rotation and the LiDAR took a new data set. Using some computation, we shifted those points back into position in real-time, creating a map of where the LiDAR has been.</p><span class="icon"><span class=
                         "glyphicon glyphicon-new-window"></span></span>
                     </figcaption>
                 </figure>

@@ -512,8 +512,18 @@ Wrote full reports for circuitry testing, repair and inspection results.</span> 
     </div>
     <div class="container" id="projects">
         <h2>Projects</h2>
+		<hr>
+        <h3>Wi-Fi LTE-U Interference (Sept 2014 - May 2015)</h3>
+        <div class="experiences">
+            <div class="experience row">
+                <div class="col-md-12">
+                    <p><span class="hidden-phone">
+					This project was to study the interference to Wi-Fi caused by LTE-U coming into unlicensed bandwidths and to design a coordination system in which LTE-U and Wi-Fi can coexist peacefully. My role in this project included FPGA programming, some driver programming in C, experiment design, experiment execution and data analysis of the results compared to a theoretical model that we constructed. This required C, Ruby and MATLAB programming, LTE emulation software called OpenAirInterface, in-depth knowledge of how Wi-Fi and LTE-U operate (including Markov chain analysis and packet scheduling).<br><br><i>See publication section for results and details</i></span></p>
+                </div>
+            </div>
+		</div>
         <hr>
-        <h3>Directional Networking Antenna (Fall 2015 - Present)</h3>
+        <h3>Directional Networking Antenna (Sept 2015 - Present)</h3>
         <div class="experiences">
             <div class="experience row">
                 <div class="col-md-12">
@@ -548,12 +558,12 @@ Wrote full reports for circuitry testing, repair and inspection results.</span> 
             </div>
 		</div>
 		<hr>
-        <h3>3D Mapping and Collision Avoidance (Fall 2015 - Present)</h3>
+        <h3>3D Mapping and Collision Avoidance (Sept 2015 - Present)</h3>
         <div class="experiences">
             <div class="experience row">
                 <div class="col-md-12">
                     <p><span class="hidden-phone">
-					The project is for a UAV known as the "Naviator" to achieve collision avoidance and 3D mapping. We started with a LiDAR and some cheap MEMS gyros to run some tests. Once we concluded those tests, we moved on to using a Stereolabs ZED 3D camera to generate point clouds for this purpose. With this camera, I have used the C++ Point Cloud Library to do point cloud stitching and use the point clouds to perform computations. Eventually, this will be moved on to an ARM system called the Jetson TX1 where it can be mounted on the Naviator and used in real-time. This requires Python, C++, Point Cloud Library, Boost C++ Library, MATLAB, arduino, low-level IO, computer vision and linear algebra knowledge to accomplish.</span></p>
+					This project is for a UAV known as the "Naviator" to achieve collision avoidance and 3D mapping. We started with a LiDAR and some cheap MEMS gyros to run some tests. Once we concluded those tests, we moved on to using a Stereolabs ZED 3D camera to generate point clouds for this purpose. With this camera, I have used the C++ Point Cloud Library to do point cloud stitching and use the point clouds to perform computations. Eventually, this will be moved on to an ARM system called the Jetson TX1 where it can be mounted on the Naviator and used in real-time. This requires Python, C++, Point Cloud Library, Boost C++ Library, MATLAB, arduino, low-level IO, computer vision and linear algebra knowledge to accomplish.</span></p>
                 </div>
             </div>
 		</div>
@@ -583,40 +593,15 @@ Wrote full reports for circuitry testing, repair and inspection results.</span> 
             </div>
         </div>
 		<hr>
-        <h3>Wi-Fi LTE-U Interference (Sept 2014 - May 2015)</h3>
+        <h3>Telephone Pole Sensor Network (Jan 2016 - Present)</h3>
         <div class="experiences">
             <div class="experience row">
                 <div class="col-md-12">
                     <p><span class="hidden-phone">
-					The project is for a UAV known as the "Naviator" to achieve collision avoidance and 3D mapping. We started with a LiDAR and some cheap MEMS gyros to run some tests. Once we concluded those tests, we moved on to using a Stereolabs ZED 3D camera to generate point clouds for this purpose. With this camera, I have used the C++ Point Cloud Library to do point cloud stitching and use the point clouds to perform computations. Eventually, this will be moved on to an ARM system called the Jetson TX1 where it can be mounted on the Naviator and used in real-time. This requires Python, C++, Point Cloud Library, Boost C++ Library, MATLAB, arduino, low-level IO, computer vision and linear algebra knowledge to accomplish.</span></p>
+					This project is to develop a sensor network to predict when a telephone pole is most likely to fall and to notify a basestation whenever a pole is predicted to fall or has already fallen. Our design involves using weather detection and proximity sensors along with resistance analysis of the wood to determine which pole is most likely to fall from external anomalies. To determine whether a pole has already fallen, we use a gyro to pick up a tilt below a certain level and to set off an alarm. To communicate this information back to the basestation, we use a mesh network because of its resilience to network damage and missing nodes in the network. Our system is powered by induction from the power lines. Our system is very resilient to outside damage and node outages and is self-sustaining and self-healing. We are implementing this sensor network using circuit design for the induction power harvesting and storage and raspberry pi zeros to do all of the computations and networking. This project requries C++, Python, IEEE 802.15.4 protocol knowledge, low-level GPIO and I2C, machine learning and systems engineering to accomplish.<br><br><i>Pictures coming soon</i></span></p>
                 </div>
             </div>
 		</div>
-        <div class="row">
-            <div class="col-md-6 col-sm-12 col-xs-12">
-                <figure class="effect">
-                    <img alt="Coordinated Dynamic Spectrum Management of LTE-U and Wi-Fi Networks" src="http://arxiv.org/pdf/1507.06881.pdf"
-                    style="width: 107%;">
-                    <figcaption>
-                        <h3>Coordinated Dynamic Spectrum Management of LTE-U and Wi-Fi Networks</h3>
-                        <p>Recipient of the "Best Technical Paper Award" at the 2015 IEEE DySPAN Conference in Stockholm, Sweden.</p>
-                        <span class="icon"><span class=
-                        "glyphicon glyphicon-new-window"></span></span>
-                    </figcaption>
-                </figure>
-            </div>
-            <div class="col-md-6 col-sm-12 col-xs-12">
-                <figure class="effect">
-                    <img alt="LiDAR Data with Computation" src=
-                    "view/images/pointmap.png" style="width: 103%;">
-                    <figcaption>
-                        <h3>LiDAR Data with Computation</h3>
-                        <p>This data was taken with a 360 degree LiDAR at around 5 Hz. The blue points is the first data set taken, the red points is the second data set with the LiDAR slightly rotated. Using some computation, we shifted the red points back into blue position in real-time, creating a map of where the LiDAR has been.</p><span class="icon"><span class=
-                        "glyphicon glyphicon-new-window"></span></span>
-                    </figcaption>
-                </figure>
-            </div>
-        </div>
         <div class="text-center project-referal">
             <a class="btn btn-primary" href="https://github.com/sakib" target=
             "_blank">Check out my Github</a>

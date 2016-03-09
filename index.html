@@ -564,7 +564,7 @@ Wrote full reports for circuitry testing, repair and inspection results.</span> 
                     style="width: 107%;">
                     <figcaption>
                         <h3>13 Combined Point Clouds</h3>
-                        <p>These point clouds were taken in 720p quality by the Stereolabs ZED 3D camera. Used an Iterative Closest Point (ICP) algorithm to stitch 13 individual point clouds together. Used an Hampel filter to exclude the outlier points. Better filtering is needed to clear up the quality, as the stitch is a little fuzzy. However, you can get the general shape of the kitchen from this cloud and it can be used for collision avoidance or route planning.</p>
+                        <p>These point clouds were taken in 720p quality by the Stereolabs ZED 3D camera. Used an Iterative Closest Point (ICP) algorithm to stitch 13 individual point clouds together. Used an Hampel filter to exclude the outlier points. Better filtering is needed, but you can get the general shape of the kitchen from this cloud and it can be used for collision avoidance or route planning.</p>
                         <span class="icon"><span class=
                         "glyphicon glyphicon-new-window"></span></span>
                     </figcaption>
@@ -576,7 +576,7 @@ Wrote full reports for circuitry testing, repair and inspection results.</span> 
                     "view/images/pointmap.png" style="width: 103%;">
                     <figcaption>
                         <h3>LiDAR Data with Computation</h3>
-                        <p>This data was taken with a 360 degree LiDAR at around 5 Hz. The blue points is the first data set taken. The LiDAR was rotated and a MEMS gryo/accelerometer was used to compute approximate yaw from that rotation and the LiDAR took a new data set. Using some computation, we shifted those points back into position in real-time, creating a map of where the LiDAR has been.</p><span class="icon"><span class=
+                        <p>This data was taken with a 360 degree LiDAR at around 5 Hz. The blue points is the first data set taken, the red points is the second data set with the LiDAR slightly rotated. Using some computation, we shifted the red points back into blue position in real-time, creating a map of where the LiDAR has been.</p><span class="icon"><span class=
                         "glyphicon glyphicon-new-window"></span></span>
                     </figcaption>
                 </figure>
